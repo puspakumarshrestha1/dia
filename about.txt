@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video-2">
+            <source src="images/about.mp4" type="video/mp4">
+        </video>
+        <div class="header-holder">
+            <header class="header">
+              
+              <div class="search-mobile" style="display: block;">
+                <a rel="nofollow">
+                  <i class="icon_search"></i>
+                </a>
+              </div>
+              
+              <nav class="header-nav">
+                <div class="header-nav__inner">
+                  <ul class="header-menu-list">
+                    <li class="header-menu-item">
+                      <a href="/">HOME</a>
+                    </li>
+                    <li class="header-menu-item">
+                      <a rel="nofollow" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="header-menu-item">
+                      <a href="about.html">SERVICES</a>
+                    </li>
+                    
+                    <li class="header-menu-item">
+                      <a rel="nofollow" href="about.html">CONTACTS</a>
+                    </li>
+                  </ul>
+                  </div>
+              </nav>
+              
+              <a href="/" class="logo">diacreatives</a>
+              
+              <a href="#" class="device-menu">
+                <div class="device-menu__inner">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </a>
+            </header>
+          </div>
+          
+
+    </div>
+    <div class="container2">
+        <div class="about-main">
+            <div class="about-content">
+                <h1>About Us</h1>
+                <p>What if there was someone who could take care of all your digital needs?<br> What if there was a single
+                    stop that did everything for you? <br>
+                    This is exactly what we had in mind when we created Dia Creatives.
+                    With us, you have your own videographers to take videos of your super work, photograph those
+                    precious moments, translate them for a global audience, and create a platform where your work can
+                    'shine bright like a diamond' as sang by Rihanna. <br> 
+                    <span>At Dia Creatives, We Do It All For You!</span></p>
+            </div>
+            <!-- <img src="/images/aboutimg.jpg" alt=""> -->
+
+        </div>
+        <div class="services" id="services">
+            <div class="services-content">
+                <h1>Services</h1>
+            </div>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h2>Flim Production</h2>
+                            <p>You're looking a team for a video production? Documentary? Feature Film? Short Videos for
+                                Your Social Media?
+                            <!-- <span>Our elite team of videographers, fixers, audio engineers, gaffers help you throughout
+                                the pre-production and production in the best possible locations in Nepal and the United
+                                States of America.
+                                Our top-of-the-line editors and animators ensure that the raw footage is developed into
+                                a masterclass in the magical touch during our post-prooduction.</span>     -->
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <img src="./images/video-production.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h2>Translations</h2>
+                            <p>Are you looking for authenticity in your videos and want a global audience to understand
+                                them?
+                                <!-- <span>With linguists in over 65 languages, our professional native-language translators and
+                                    transcribers are there to do just that for you.
+                                    Our on-set translators will travel during the production to help you understand the
+                                    languages spoken in whatever area and culture you're filming with.
+                                    Our efficient transcribers each have more than a decade experience in doing
+                                    transcriptions and creating subtitles for international films and documentaries.</span> -->
+                                </p> 
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <img src="./images/translate.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h2>Web Development</h2>
+                            <p>Do you need to have your content revamped? Is your website lacking the amazing appearance
+                                that you've been looking for? Do you want to improve your online presence?
+                            <!-- <span>With our team of creative tech enthusiasts, we make kick-ass designs and make you reach
+                                your desired audience. We specialize in Web Services (Design, SEO), Digital Marketing
+                                (Search, Youtube/Facebook/Instagram Ads), Brand Identity (Logo, Graphics &
+                                Illustrations) and Creative Content (Copy/Content/Photos/Videos)</span>     -->
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <img src="./images/coding.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact-content">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="container3">
+
+                <div class="row">
+                    <h4 style="text-align:center">We'd love to hear from you!</h4>
+                </div>
+                <div class="row input-container">
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <input type="text" required />
+                            <label>Full Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="styled-input">
+                            <input type="text" required />
+                            <label>Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="styled-input" id="styled-input" style="float:right;">
+                            <input type="text" required />
+                            <label>Phone Number</label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <textarea required></textarea>
+                            <label id="label">Message</label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="btn-lrg submit-btn" type="submit">Send Message</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="upper">
+<div class="title">
+    <h1>Get in touch</h1>
+</div>
+            <div class="linkss">
+                <ul>
+                    <li><a href="https://www.facebook.com/diacreatives">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/dia_creatives">Instagram</a></li>
+                    <li><a href="https://vimeo.com/user183695513">Vimeo</a></li>
+                    <li><a href="">Linkden</a></li>
+                    <li><a href="diya@diacreatives.com">Gmail</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="lower">
+            <span>© 2022 diacreatives
+                All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>

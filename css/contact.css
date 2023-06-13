@@ -1,0 +1,77 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1120px;
+    }
+}
+
+.head-title h5 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 6.5rem;
+    margin-bottom: 34px;
+    letter-spacing: 5px;
+}
+
+.head-desc p a {
+    font-size: 18px;
+    color: red;
+    line-height: 32px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.form-control {
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    height: 52px !important;
+    background: transparent !important;
+    color: #858585 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #2c2c2c !important;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(150, 149, 149) !important;
+}
+
+
+i {
+    color: black;
+}
+
+li:hover i {
+    color: white;
+}
+
+.fa-phone:before {
+    font-size: 60px;
+}
+
+.fa-envelope:before {
+    font-size: 60px;
+}
+
+.fa-globe:before {
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .head-title h5 {
+        font-size: 60px;
+    }
+
+    .maps {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diacreatives</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="about.html">
+</head>
+
+<body>
+
+    <div class="hero">
+        
+
+        <img src="./images/main.jpg" class="main-img" alt="">
+       
+<div class="header-holder">
+    <header class="header">
+      
+      <div class="search-mobile" style="display: block;">
+        <a rel="nofollow">
+          <i class="icon_search"></i>
+        </a>
+      </div>
+      
+      <nav class="header-nav">
+        <div class="header-nav__inner">
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a href="/">HOME</a>
+            </li>
+            <li class="header-menu-item">
+              <a rel="nofollow" href="about.html">ABOUT</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="about.html">SERVICES</a>
+            </li>
+            
+            <li class="header-menu-item">
+              <a rel="nofollow" href="about.html">CONTACTS</a>
+            </li>
+          </ul>
+          </div>
+      </nav>
+      
+      <a href="/" class="logo">diacreatives</a>
+      
+      <a href="#" class="device-menu">
+        <div class="device-menu__inner">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
+    </header>
+  </div>
+        <div class="content-0">
+            <h1>diacreatives</h1>
+            <p>Film Productions. Fixers. Equipment. Translations. Transcriptions.<br> Web Development. Designs. Content Creation.
+               <br> You Name It. We Do It All For You!</p>
+        </div>
+    </div>
+    <div class="second" id="explore">
+        <video autoplay loop muted plays-inline class="back-video-2">
+            <source src="images/gbseye.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Great Big Story </h1>
+            <a href="#">Sanduk Ruit</a>
+        </div>
+
+    </div>
+    <div class="third">
+        <video autoplay loop muted plays-inline class="back-video-3">
+            <source src="images/HBO1.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>HBO</h1>
+            <a href="#"> Behind Closed Doors</a>
+        </div>
+
+    </div>
+    <div class="fourth">
+        <video autoplay loop muted plays-inline class="back-video-4">
+            <source src="images/Order.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Order Disruption</h1>
+            <a href="#"> Blue Kangling</a>
+        </div>
+
+    </div>
+    <div class="fifth">
+        <video autoplay loop muted plays-inline class="back-video-5">
+            <source src="images/video1.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Yakru </h1>
+            <a href="https://www.youtube.com/watch?v=P12f2OQV2zA">Enduro Race</a>
+        </div>
+
+    </div>
+    <div class="sixth">
+        <video autoplay loop muted plays-inline class="back-video-6">
+            <source src="images/video4.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>60 Second Docs</h1>
+            <a href="https://www.youtube.com/watch?v=P12f2OQV2zA">Salt Artist</a>
+        </div>
+
+    </div>
+    <div class="seventh">
+        <video autoplay loop muted plays-inline class="back-video-7">
+            <source src="images/hbo.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Business Insider</h1>
+            <a href="https://www.youtube.com/watch?v=P12f2OQV2zA">500-Year Traditional Pedicure</a>
+        </div>
+
+    </div>
+<script src="./app.js"></script>
+</body>
+
+</html>
